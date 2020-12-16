@@ -1,21 +1,6 @@
 # ali-dcdn
 
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
-[![David deps][david-image]][david-url]
-[![npm download][download-image]][download-url]
-
-[npm-image]: https://img.shields.io/npm/v/ali-dcdn.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/ali-dcdn
-[travis-image]: https://img.shields.io/travis/ant-ife/ali-dcdn.svg?style=flat-square
-[travis-url]: https://travis-ci.org/ant-ife/ali-dcdn
-[codecov-image]: https://codecov.io/github/ant-ife/ali-dcdn/coverage.svg?branch=master
-[codecov-url]: https://codecov.io/github/ant-ife/ali-dcdn?branch=master
-[david-image]: https://img.shields.io/david/ant-ife/ali-dcdn.svg?style=flat-square
-[david-url]: https://david-dm.org/ant-ife/ali-dcdn
-[download-image]: https://img.shields.io/npm/dm/ali-dcdn.svg?style=flat-square
-[download-url]: https://npmjs.org/package/ali-dcdn
+<a href="https://npm.im/ali-dcdn"><img src="https://badgen.net/npm/v/ali-dcdn"></a> <a href="https://david-dm.org/ant-ife/ali-dcdn"><img src="https://img.shields.io/david/ant-ife/ali-dcdn.svg?style=flat-square"></a> <a href="https://npm.im/ali-dcdn"><img src="https://badgen.net/npm/dm/ali-dcdn"></a> <a href="https://packagephobia.now.sh/result?p=ali-dcdn"><img src="https://packagephobia.now.sh/badge?p=ali-dcdn"></a>
 
 Aliyun DCDN client.
 
@@ -39,7 +24,7 @@ const client = new DCDNClient({
 (async () => {
   const quota = await client.actions.DescribeDcdnUserQuota({ DomainName: 'Your domainName' });
   console.log('user quota: %j', quota);
-})().catch(err => console.error(err));
+})().catch((err) => console.error(err));
 ```
 
 ## Documentation
