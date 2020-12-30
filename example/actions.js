@@ -9,5 +9,5 @@ const client = new DCDNClient({
 });
 
 (async () => {
-  await client.actions.describeDcdnUserQuota({DomainName: '< Your domainName >'});
+  await client.actions.describeDcdnUserQuota({DomainName: '<Your domainName>'});
 })();
