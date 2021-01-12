@@ -32,7 +32,8 @@
     "lint": "eslint . --fix",
     "cov": "nyc report --reporter=text-lcov",
     "ci": "npm run lint && npm run test && npm run cov",
-    "test": "nyc mocha -R spec test/*.test.js"
+    "test": "nyc mocha -R spec test/*.test.js",
+    "lint-staged": "lint-staged"
   },
   "files": [
     "lib",
