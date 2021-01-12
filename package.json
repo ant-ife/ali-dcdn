@@ -23,7 +23,8 @@
     "mocha": "^8.2.1",
     "nyc": "^15.1.0",
     "sinon": "^9.2.1",
-    "standard-version": "^9.0.0"
+    "standard-version": "^9.0.0",
+    "prettier": "^1.16.4"
   },
   "scripts": {
     "build-change-log": "standard-version",
@@ -46,6 +47,10 @@
     "*.js": [
       "prettier --write",
       "eslint --fix"
+    ],
+    "*.md": [
+      "prettier --write",
+      "git add"
     ]
   },
   "nyc": {
