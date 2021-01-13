@@ -14,7 +14,6 @@ $ npm install ali-dcdn
 
 ```js
 const DCDNClient = require('ali-dcdn');
-
 const client = new DCDNClient({
   accessKeyId: '<Your accessKeyId>',
   accessKeySecret: '<Your accessKeySecret>',
@@ -24,7 +23,7 @@ const client = new DCDNClient({
 (async () => {
   const quota = await client.actions.DescribeDcdnUserQuota({ DomainName: 'Your domainName' });
   console.log('user quota: %j', quota);
-})().catch((err) => console.error(err));
+})().catch(err => console.error(err));
 ```
 
 ## Documentation
