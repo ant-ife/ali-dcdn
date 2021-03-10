@@ -1,6 +1,6 @@
 # ali-dcdn
 
-<a href="https://npm.im/ali-dcdn"><img src="https://badgen.net/npm/v/ali-dcdn"></a> <a href="https://david-dm.org/ant-ife/ali-dcdn"><img src="https://img.shields.io/david/ant-ife/ali-dcdn.svg?style=flat-square"></a> <a href="https://npm.im/ali-dcdn"><img src="https://badgen.net/npm/dm/ali-dcdn"></a>
+<a href="https://npm.im/ali-dcdn"><img src="https://badgen.net/npm/v/ali-dcdn"></a> <a href="https://github.com/ant-ife/ali-dcdn/actions?query=workflow%3ANode.js%20CI+branch%3Amaster"><img src="https://github.com/ant-ife/ali-dcdn/workflows/Node.js%20CI/badge.svg?branch=master"></a> <a href="https://npm.im/ali-dcdn"><img src="https://badgen.net/npm/dm/ali-dcdn"></a>
 
 Aliyun DCDN client.
 
